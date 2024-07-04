@@ -11,7 +11,8 @@ body {
 .head {
     background-color: rgb(215, 196, 116, 0.5);
     text-align: center;
-    margin: 5cm;
+    margin: 1cm;
+    padding: 5cm;
 }
 h1 {
     color: white;
