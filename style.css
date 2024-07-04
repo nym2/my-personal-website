@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.background-image {
+body {
     background-image: url(mywebsitephoto1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
