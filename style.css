@@ -3,6 +3,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+}
+.background-image {
     margin: 0;
     padding: 0;
 }
