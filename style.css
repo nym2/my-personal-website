@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container {
+.body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(mywebsitephoto1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
