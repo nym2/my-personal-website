@@ -1,10 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .background-image {
     background-image: url(mywebsitephoto1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
-.background-image {
-    margin: 0;
-    padding: 0;
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
 }
