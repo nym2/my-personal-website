@@ -6,10 +6,10 @@ body {
     margin: 0;
     padding: 0;
 }
-#wordpress {
+a {
     opacity: 0;
 }
-#wordpress {
+a {
     position: absolute;
     left: 0%;
     top: 0%;
@@ -19,15 +19,15 @@ body {
     height: 100%;
     object-fit: contain;
 }
-header {
+.head {
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
 }
-header {
+.head {
     border: 0;
 }
-header {
+.head {
     overflow-clip-margin: conten-box;
     overflow: clip;
 }
