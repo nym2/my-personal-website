@@ -1,12 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 body {
     background-image: url(mywebsitephoto1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 h1 {
     color: white;
