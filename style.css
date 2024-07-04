@@ -1,3 +1,12 @@
 body, html {
-    background-image: https://pixabay.com/photos/old-letters-letters-handwritten-436501/;
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    background-image: url=("https://pixabay.com/photos/old-letters-letters-handwritten-436501/");
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
