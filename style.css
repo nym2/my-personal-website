@@ -10,14 +10,23 @@ body {
     height: 100vh;
 }
 .head {
-    background-color: rgb(215, 196, 116, 0.3);
+    background-color: rgba(215, 196, 116, 0.3);
     text-align: center;
     margin: 3cm;
     padding: 2cm;
-}
-h1 {
     color: white;
+    font-family: ubuntu;
+    font-size: large;
 }
-h2 {
+#title {
     color: white;
+    text-align: center;
+    text-decoration: double;
+    font-family: ubuntu;
+    font-size: large;
+}
+p {
+    background-color: rgba(165,42,42, 0.3);
+    padding: 1cm;
+    text-align: center;
 }
