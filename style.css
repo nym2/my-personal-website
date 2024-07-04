@@ -6,6 +6,11 @@ body {
     margin: 0;
     padding: 0;
 }
+#wordpress {
+    display: flex;
+    align-self: flex-end;
+    size: 50px;
+}
 h1 {
     color: white;
 }
