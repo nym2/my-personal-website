@@ -61,7 +61,7 @@ main {
 /* Letter Title */
 .letter-title {
     text-align: center;
-    color: #e7a98b; /* Soft blue */
+    color: #e7a98b; 
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 20px;
@@ -70,7 +70,7 @@ main {
 /* Divider */
 .divider {
     height: 3px;
-    background-color: #c9ad9f; /* Lighter blue */
+    background-color: #c9ad9f;
     border: none;
     margin: 20px auto;
     width: 50%;
