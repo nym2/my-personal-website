@@ -1,34 +1,122 @@
+/* Reset and Box Sizing */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+/* Global Body Styling */
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(mywebsitephoto1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f7f7f7; /* Soft background */
+    color: #333; /* Text color */
+    line-height: 1.7;
+    padding: 20px;
+    font-size: 16px;
 }
-.head {
-    background-color: rgba(215, 196, 116, 0.3);
+
+/* WordPress Logo */
+.wp-logo img {
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: transform 0.3s ease;
+}
+
+.wp-logo img:hover {
+    transform: scale(1.1);
+}
+
+/* Header Styling */
+header {
+    background-color: #3d8ca7; /* Soft blue */
+    padding: 80px 20px;
     text-align: center;
-    margin: 3cm;
-    padding: 2cm;
-}
-.head {
     color: white;
-    font-family: ubuntu;
-    font-size: large;
+    border-bottom: 5px solid #b2d3d9; /* Lighter blue accent */
 }
-#title {
-    color: white;
+
+.header-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.header-content .tagline {
+    font-size: 1.5rem;
+    color: #e3f2f7; /* Lighter tone for tagline */
+}
+
+/* Main Content Styling */
+main {
+    padding: 40px;
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Letter Title */
+.letter-title {
     text-align: center;
-    text-decoration: double;
-    font-family: ubuntu;
-    font-size: large;
+    color: #e7a98b; /* Soft blue */
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
+
+/* Divider */
+.divider {
+    height: 3px;
+    background-color: #c9ad9f; /* Lighter blue */
+    border: none;
+    margin: 20px auto;
+    width: 50%;
+}
+
+/* Article/Letter Styling */
+article {
+    padding: 20px;
+    background-color: #e3f2f7; /* Light blue background */
+    border-radius: 8px;
+}
+
 p {
-    background-color: rgba(232, 158, 46, 0.3);
-    padding: 1cm;
+    margin-bottom: 1.5rem;
+    color: #333; /* Main text color */
+    font-size: 1.125rem;
+}
+
+/* Footer Styling */
+footer {
     text-align: center;
+    padding: 20px 0;
+    background-color: #3d8ca7; /* Soft blue */
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Small Screen Adjustments */
+@media (max-width: 768px) {
+    header {
+        padding: 60px 20px;
+    }
+
+    .header-content h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .letter-title {
+        font-size: 2rem;
+    }
 }
